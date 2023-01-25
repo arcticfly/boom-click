@@ -1,8 +1,12 @@
 # Boom Click chrome extension
 
-## Introduction
-
 This simple JS browser extension allows you to click away annoying browser elements.
+
+## Features
+
+* Hides any element the user clicks while extension is enabled.
+* Provides a preview highlight (similar to chrome inspector) of the element that will be removed after clicking.
+* Allows user to undo hiding elements. Elements will reappear in reverse order of when they were hidden.
 
 ## Commands
 
