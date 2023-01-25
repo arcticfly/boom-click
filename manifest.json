@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Boom gone",
+  "description": "Easily hide any annoying elements that pop up in your browser",
+  "version": "1.0.0",
+  "icons": {
+    "128": "images/icon-128.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["scripts/set-hiding.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "128": "images/icon-128.png"
+    }
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    },
+    "restore-item": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Z",
+        "mac": "Command+Shift+Z"
+      },
+      "description": "Restore most recently hidden item."
+    }
+  }
+}
