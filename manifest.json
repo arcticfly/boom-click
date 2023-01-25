@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Boom gone",
+  "name": "Boom Click",
   "description": "Easily hide any annoying elements that pop up in your browser",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icons": {
     "128": "images/icon-128.png"
   },
