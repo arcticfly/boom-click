@@ -28,7 +28,7 @@
         "mac": "Command+B"
       }
     },
-    "restore-item": {
+    "redisplay-item": {
       "suggested_key": {
         "default": "Ctrl+Shift+Z",
         "mac": "Command+Shift+Z"
