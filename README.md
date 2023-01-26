@@ -22,4 +22,4 @@ After installing and enabling this extension, these commands will be available:
 
 ### Short Demo
 
-![boom-click](https://user-images.githubusercontent.com/41524992/214762056-1e8d1a06-24b3-43ed-bdaa-f87806f0da5d.gif)
+![boom-click-gfg](https://user-images.githubusercontent.com/41524992/214762403-5c0449ec-0d58-4a51-a176-1cb4cfaf486e.gif)
