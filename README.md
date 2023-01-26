@@ -19,3 +19,7 @@ After installing and enabling this extension, these commands will be available:
 ### Restore most recently hidden item `Ctrl+Shift+Z` (`Command+Shift+Z` on MacOS)
   
   This command allows the user to show the most recently hidden item in the active tab. This can be useful after hiding an important item on accident.
+
+### Short Demo
+
+![boom-click](https://user-images.githubusercontent.com/41524992/214761952-80cf46c6-32a9-4809-8ead-85fa042475fa.gif)
